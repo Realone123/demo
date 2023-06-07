@@ -119,7 +119,7 @@ Route::get('subscription-verify/{token}',[HomeController::class,'subscriptionVer
 Route::get('page/{slug}',[HomeController::class,'customPage'])->name('custom.page');
 Route::get('agents',[HomeController::class,'agent'])->name('agents');
 Route::get('agent',[HomeController::class,'agentDetails'])->name('agent.show');
-
+Route::get('ttt',[HomeController::class,'agentDetails'])->name('agent.show');
 
 Route::get('/pricing-plan',[HomeController::class,'pricingPlan'])->name('pricing.plan');
 Route::get('/properties',[HomeController::class,'properties'])->name('properties');
